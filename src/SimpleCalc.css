@@ -1,0 +1,74 @@
+.CalcBox {
+    width: 15em;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.LIGHT {
+    background-color: #fff;
+}
+
+.DARK {
+    background-color: #000;
+}
+
+.square {
+    padding: 20px;
+    margin: 2px;
+    border: 1px solid #bbb;
+}
+
+.LIGHT .square {
+    background-color: #f0f0f0;
+    color: 000;
+}
+
+.DARK .square {
+    background-color: #666;
+    color: #fff;
+}
+
+.LIGHT .square:hover, .DARK .square:hover {
+    background-color: #fff;
+    color:#000;
+    cursor: pointer;
+}
+
+.toggle-button {
+    background-color: lightseagreen;
+    padding: 10px;
+}
+
+.result {
+    padding: 20px 10px;
+    border: 1px solid #bbb;
+    width: 200px;
+    text-align: right;
+    overflow: hidden;
+    background-color: #efefef;
+    /* direction: rtl; */
+}
+
+/*created this because we use it multiple times, a better option rather than using as style*/
+.inline-block {
+    display: inline-block;
+}
+
+.visibility {
+    visibility: visible;
+}
+
+.hideVisibility {
+    visibility: hidden;
+}
+
+.lt-box {
+    background-color: #eee;
+    color: black;
+}
+
+.dt-box {
+    background-color: #000;
+    color: #eee;
+}
