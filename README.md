@@ -1,4 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 SimpleCalcClasses uses class components & the same is done in SimpleCalc using react hooks. The same can be switched in index.js
 Currently Using create react app instead of custom webpack
@@ -6,6 +5,8 @@ Css modules could have been used more efficiently but as the styles were less, m
 No test cases are written yet
 Url change on switch mode could have been done
 https://simplecalc-c385d.firebaseapp.com/
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
